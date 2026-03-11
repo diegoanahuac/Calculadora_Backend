@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const gastosSchema = mongoose.Schema({
-    description: {
+    descripcion: {
         type: String,
         required: [true, 'Teclea una descripción']
     },
